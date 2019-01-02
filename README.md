@@ -37,12 +37,12 @@ Then in your `BUILD` files load the C/C++ rules with:
 
 ``` python
 load(
-  "@io_bazel_rules_cc//cc:cc.bzl",
-  "cc_binary", "cc_library", "cc_test",
+    "@io_bazel_rules_cc//cc:cc.bzl",
+    "cc_binary", "cc_library", "cc_test",
 )
 
 cc_binary(
-  name = "main",
-  ...
+    name = "main",
+    ...
 )
 ```
